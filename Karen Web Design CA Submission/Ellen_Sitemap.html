@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html Lang="en">
+<head>
+<title>Ellen's B&amp;B - Sitemap</title>
+<meta charset="utf-8">
+<meta name="description" content="Ellen's B&amp;B is the gateway to the West with easy access to the picturesque landscape of Connemara,
+ Clifden and The Cliffs of Moher. 5 minutes drive by car/taxi or 25 minutes on foot will bring you to the bustling heart of Galway City
+ where you can enjoy exploring the medieval streets of Galway - The city of Tribes.Site map">
+<meta name="keywords" content="best b and b;galway b&amp;b, great b&amp;bs in galway,cheap b&amp;bs in galway, galway guesthouses,
+ b&amp;bs near salthill galway,award winning,tripadvisor 2015,tripadvisor 2016, site map">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Ellen_Styles.css" type="text/css">
+<link rel="icon" href="caImages/tn/Ellen.jpg" type="image/x-icon">
+<link rel="shortcut icon" href="caImages/tn/Ellen.jpg" type="image/x-icon">
+<script type="text/javascript" src="Ellen_JSScript.js"></script>
+<script type="text/javascript">
+    if (datefield.type!="date")
+	{ //if browser doesn't support input type="date", initialize date picker widget:
+    jQuery(function($){ //on document.ready
+        $('#myDate1').datepicker(),$('#myDate2').datepicker();
+    })
+	}
+	function CheckDate(){
+	var date1 = new Date(document.getElementById("myDate1").value);
+	var date2 = new Date(document.getElementById("myDate2").value);
+	var inputs = document.getElementById("email");
+	if(date2 > date1)
+		{if (inputs.checkValidity() == false)
+			{
+			document.getElementById("email").innerHTML = inpObj.validationMessage;
+			}	
+			{alert("Thank you, your reservation has been sent");
+			}
+			}
+		else
+		{
+		alert("Something wrong, have you entered dates....your checkout date should be later than your checkin date");
+		}
+	}
+</script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+<noscript>Your browser does not support JavaScript!</noscript>
+</head>
+
+<body>
+<div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
+<div id="wrapper">
+	<header role="banner" class="opt1">
+    <h1>Ellen's B&amp;B</h1>
+	
+	<h3>Galway City Guesthouse</h3>
+    </header>
+<div role="navigation" class="topnav"> 
+ 		<ul>
+			<li><a href="Ellen_Index.html">Home</a></li>
+			<li><a href="Ellen_AboutUs.html">About Us</a></li>
+			<li><a href="Ellen_Rooms.html">Rooms</a></li>
+			<li><a href="#">Things To Do&#9662;</a>
+				<ul>
+				<li><a href="Ellen_GalwayCity.html">Galway City</a></li>
+				<li><a href="Ellen_GalwayOther.html">Galway Other</a></li>
+				</ul>
+				</li>
+			<li><a href="Ellen_Directions_FAQs.html">Directions &amp; FAQs</a></li>
+			<li><a href="Ellen_ContactUs.html">Contact Us</a></li>
+		</ul>
+</div>
+	<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+	<div id="maincontent">
+	<div role="main" id="leftcol">
+		<div> <!--sitemap-->
+		<ul>
+			<li><a href="Ellen_Index.html">Home</a></li>
+			<li><a href="Ellen_AboutUs.html">About Us</a></li>
+			<li><a href="Ellen_Rooms.html">Rooms</a></li>
+			<li><a href="#">Things To Do</a>
+				<ul>
+				<li><a href="Ellen_GalwayCity.html">Galway City</a></li>
+				<li><a href="Ellen_GalwayOther.html">Galway Other</a></li>
+				</ul>
+				</li>
+			<li><a href="Ellen_Directions_FAQs.html">Directions &amp; FAQs</a></li>
+			<li><a href="Ellen_ContactUs.html">Contact Us</a></li>
+		</ul>
+
+</div>	
+    
+	</div>	<!--end of left column-->
+	<div id="rightcol">
+	<aside>
+	<form method="get">
+	<fieldset class="booking">
+		<legend>Booking form</legend>
+		<label for="myDate1">Checkin</label>
+		<input required class="booking" type="date" name="myDate1" id="myDate1"><br>
+		<label for="myDate2">Checkout</label>
+		<input required class="booking" type="date" name="myDate2" id="myDate2"><br>
+		<label class="booking" for="email"><span>*</span>E-mail:</label>
+		<input required class="booking" type="email" id="email" name="email" placeholder="Your email...">
+		<input class="booking" type="submit" onclick="CheckDate()" value ="send"> <input class="booking" type="reset">
+		</fieldset>
+		</form>
+		</aside>
+	</div> <!--end of right column-->
+
+
+
+<div id="footer">
+			<a href="Ellen_Index.html">Home&nbsp;&nbsp;</a>
+			<a href="Ellen_AboutUs.html">About Us&nbsp;&nbsp;</a>
+			<a href="Ellen_Rooms.html">Rooms&nbsp;&nbsp;</a>
+			<a href="Ellen_GalwayCity.html">Galway City&nbsp;&nbsp;</a>
+			<a href="Ellen_GalwayOther.html">Galway Other&nbsp;&nbsp;</a>
+			<a href="Ellen_Directions_FAQs.html">Directions &amp; FAQs</a>
+			<a href="Ellen_ContactUs.html">Contact Us&nbsp;&nbsp;</a>
+			|
+			<a href="Ellen_Sitemap.html">Site Map&nbsp;&nbsp;</a>
+			
+		<p><img src="caImages/tn/3stars.jpg" class="ftImg" width="36" height="50" alt="3 stars">&nbsp;&nbsp;
+		<img src="caImages/tn/free_wifi.png" class="ftImg" width="75" height="38" alt="Free Wifi">&nbsp;&nbsp;
+		<img src="caImages/tn/failteIreland.png" class="ftImg" width="75" height="38" alt="Failte Ireland">&nbsp;&nbsp;
+		<strong>Tel:+353(0)87 980 8504&nbsp;&nbsp;&nbsp;</strong>12 St Bridgets Terrace, Galway.&nbsp;&nbsp;&nbsp;
+		<em>Copyright &copy; 2017 Karen Feeley. &nbsp;All rights reserved</em>&nbsp;&nbsp;</p>
+		
+	</div>
+	</div>
+  </div><!--end of wrapper-->
+</body>
+</html>
