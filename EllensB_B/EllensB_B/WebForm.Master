@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebForm.master.cs" Inherits="EllensB_B.WebForm" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Ellen's B&amp;B - AboutUs</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <meta charset="utf-8">
+        <meta name="description" content="Ellen's B&amp;B is the gateway to the West with easy access to the picturesque landscape of Connemara,
+        Clifden and The Cliffs of Moher. 5 minutes drive by car/taxi or 25 minutes on foot will bring you to the bustling heart of Galway City
+        where you can enjoy exploring the medieval streets of Galway - The city of Tribes. Recently refurbished to the highest standards, rooms available all year round">
+        <meta name="keywords" content="best b and b;galway b&amp;b, great b&amp;bs in galway,cheap b&amp;bs in galway, galway guesthouses,
+         b&amp;bs near salthill galway,award winning,recently refurbished, great reviews">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </asp:ContentPlaceHolder>
+    <link href="Content/Ellen_Styles.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="Content/caImages/tn/Ellen.jpg" type="image/x-icon" runat="server">
+    <link rel="shortcut icon" href="Content/caImages/tn/Ellen.jpg" type="image/x-icon" runat="server">
+    <script type="text/javascript" src="Ellen_JSScript.js"></script>
+    <script type="text/javascript"></script>
+</head>
+<body>
+    
+        <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
+        <div id="wrapper">
+             <form id="form2" runat="server">
+	        <header role="banner" class="opt1">
+            <h1>Ellen's B&amp;B</h1>
+	
+	        <h3>Galway City Guesthouse</h3>
+            </header>
+        
+        <div role="navigation" class="topnav"> 
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" ShowStartingNode="false" BackColor="#F7F6F3" DynamicHorizontalOffset="2" Font-Names="Calibri, sans-serif" Font-Size="1.0em" ForeColor="#000066" StaticSubMenuIndent="10px">
+                <DynamicHoverStyle BackColor="#ccf2ff" ForeColor="#000066" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicMenuStyle BackColor="#ccf2ff" />
+                <DynamicSelectedStyle BackColor="#ccf2ff" />
+                <DynamicItemTemplate>
+                    <%# Eval("Text") %>
+                </DynamicItemTemplate>
+                <StaticHoverStyle BackColor="#ccf2ff" ForeColor="#000066" />
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticSelectedStyle BackColor="#ccf2ff" />
+                <StaticItemTemplate>
+                    <%# Eval("Text") %>
+                </StaticItemTemplate>
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+        </div>
+        <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+        <div id="section">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div role="contentinfo" id="footer">
+			<a href="Ellen_Index.html">Home&nbsp;&nbsp;</a>
+			<a href="Ellen_AboutUs.aspx">About Us&nbsp;&nbsp;</a>
+			<a href="Ellen_Rooms.html">Rooms&nbsp;&nbsp;</a>
+			<a href="Ellen_GalwayCity.html">Galway City&nbsp;&nbsp;</a>
+			<a href="Ellen_GalwayOther.html">Galway Other&nbsp;&nbsp;</a>
+			<a href="Ellen_Directions_FAQs.html">Directions &amp; FAQs</a>
+			<a href="Ellen_ContactUs.html">Contact Us&nbsp;&nbsp;</a>
+			|
+			<a href="Ellen_SiteMap.html">Site Map&nbsp;&nbsp;</a>
+			
+		<p><img src="Content/caImages/tn/3stars.jpg" runat="server" class="ftImg" width="36" height="50" alt="3 stars">&nbsp;&nbsp;
+		<img src="Content/caImages/tn/free_wifi.png" runat="server" class="ftImg" width="75" height="38" alt="Free Wifi">&nbsp;&nbsp;
+		<img src="Content/caImages/tn/failteIreland.png" runat="server" class="ftImg" width="75" height="38" alt="Failte Ireland">&nbsp;&nbsp;
+		<strong>Tel:+353(0)87 980 8504&nbsp;&nbsp;&nbsp;</strong>12 St Bridgets Terrace, Galway.&nbsp;&nbsp;&nbsp;
+		<em>Copyright &copy; 2018 PCE Consulting. &nbsp;All rights reserved</em>&nbsp;&nbsp;</p>
+		
+	</div>
+         </form>
+    </div><!--end of wrapper-->
+    
+</body>
+</html>

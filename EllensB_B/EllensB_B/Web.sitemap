@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/WebPages/" title="Home"
+               description="Ellen's B&amp;B is the gateway to the West with easy access to the picturesque landscape of Connemara,
+                            Clifden and The Cliffs of Moher." >
+    <siteMapNode url="~/WebPages/Default" title="Home"
+             description="Ellen's B&amp;B is the gateway to the West with easy access to the picturesque landscape of Connemara,
+                            Clifden and The Cliffs of Moher."/>
+    <siteMapNode url="~/WebPages/AboutUs" title="AboutUs"
+               description="Ellen's B&amp;B is recently refurbished to the highest standards, rooms available all year round" />
+    <siteMapNode url="~/WebPages/Rooms" title="Rooms"
+               description="Ellen's B&amp;B has plently of room options suitable for families or singles" />
+    <siteMapNode url="~/WebPages/ThingsToDo" title="Things to do&#9662;">
+
+      <siteMapNode url="~/WebPages/Ellen_GalwayCity;" title="Galway City"
+                 description="5 minutes drive by car/taxi or 25 minutes on foot will bring you to the bustling heart of Galway City
+                              where you can enjoy exploring the medieval streets of Galway - The city of Tribes."/>
+      <siteMapNode url="~/WebPages/Ellen_GalwayOther" title="Galway Other"
+                   description="Galway is the gateway to the West with easy access to the picturesque landscape of Connemara,
+                            Clifden and The Cliffs of Moher."/>
+    </siteMapNode>
+    <siteMapNode url="~/WebPages/Ellen_Directions_FAQs" title="Directions &amp; FAQs"
+                 description="How to get here and some useful answers to some frequent questions" />
+    <siteMapNode url="~/WebPages/Ellen_ContactUs" title="Contact Us"
+                 description="Check availability, send a query or write a review" />
+  </siteMapNode>
+</siteMap>
