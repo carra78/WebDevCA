@@ -8,6 +8,8 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 	<link rel ="stylesheet" type="text/css" href="~/Content/Ellen_Styles.css" />
+    <link rel="icon" href="~/Content/caImages/tn/Ellen.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="~/Content/caImages/tn/Ellen.jpg" type="image/x-icon" />
 	<script type="text/javascript" src="<%# Page.ResolveUrl("~/Scripts/Ellen_JSScript.js") %>"></script>
 	<noscript>Your browser does not support JavaScript!</noscript>
 </head>
@@ -19,7 +21,7 @@
 				<h1>Ellen's B&amp;B</h1>
 				<h3>Galway City Guesthouse</h3>
 			</header>
-			<div role="navigation" class="topnav">
+			<div role="navigation" id="topnav">
 				<asp:Menu ID="Menu1" runat="server" Orientation ="Horizontal" DataSourceID="SiteMapDataSource1" StaticEnableDefaultPopOutImage="False"></asp:Menu>
 				<asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
 			</div>
