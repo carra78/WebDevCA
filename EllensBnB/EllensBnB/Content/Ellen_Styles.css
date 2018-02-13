@@ -65,48 +65,57 @@ main { display: block; /* for Internet Explorer version 10 and below */
 				font-family:Calibri,Verdana,Arial,sans-serif;
 				Text-align:center;}	
 				
-	/*Footer styling*/		
-#footer {font-size:90%;
-			text-align:left;
-			padding:8px;
-			background-color:#4d88ff;
-			clear:both;
-			margin-bottom: 5px;}
+	/*Footer styling*/
+#footer {
+    font-size: 90%;
+    text-align: left;
+    padding: 8px;
+    background-color: #4d88ff; /*bright blue*/
+    clear: both;
+    margin-bottom: 5px;
+}
 .ftImg {vertical-align:middle}
 			
 
 /*Top navigation bar*/		  
-.topnav ul {
+#topnav ul.level1  {
 			list-style: none;
-			background-color: #4d88ff;
+			background-color: #4d88ff;/*bright blue*/
 			text-align: center;
 			min-height:30px;
 			padding: 0;
 			margin: 0;
 }
-.topnav li {font-family: Calibri, sans-serif;
+#topnav li.level1 {font-family: Calibri, sans-serif;
 			font-size: 1em;
 			line-height: 20px;
 			text-align: left;
 }
-.topnav a {		text-decoration: none;
-				color: #000066;
-				display: block;
-				border: 1px solid #ffffff;
-				padding:0px 0px 0px 15px;
-				border-radius:4px;
-				box-shadow:1px 1px 1px #000066;
-				transition: .3s background-color;
+
+#topnav a {
+    text-decoration: none;
+    color: #000066; /*navy*/
+    display: block;
+    border: 1px solid #ffffff;
+    padding: 0px 0px 0px 15px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #000066; /*navy*/
+    transition: .3s background-color;
 }
-.topnav li:hover > a {background-color: #ccf2ff;
+#topnav li:hover > a.level1.selected
+    {background-color: #ccf2ff;/*light blue*/
 }
-.topnav a.active {background-color: #ccf2ff;
-				color: #000066;
-				cursor: default;
-				overflow:hidden;
+#topnav ul.level1 .level2.selected {
+    background-color: #ccf2ff; /*light blue*/
 }
-.topnav li li {font-size: 90%;
-}											
+#topnav a.level1.selected {
+    background-color: #ccf2ff; /*light blue*/
+    color: #000066; /*navy*/
+    cursor: default;
+    overflow: hidden;
+}
+/#topnav li li {font-size: 90%; text-align:left;
+}										
 	  
 /*skip to maincontent styles*/	  
 #skiptocontent a {
@@ -452,24 +461,24 @@ input.search[type=submit] {	 background-color: #4d88ff;
 
 /*styling for larger screens*/
 @media screen and (min-width:650px)	{
-.topnav li  {position:relative;
+#topnav li  {position:relative;
 			width: 130px;
 			float:left;
 			}
-.topnav a {line-height: 30px;
-			height: 30px;
-			background-color:#4d88ff;}
-.topnav > ul > li {text-align: center;
+#topnav a {line-height: 30px;
+			/*height: 30px;*/
+			background-color:#4d88ff;}/*bright blue*/
+#topnav > ul > li {text-align: center;
   }
-.topnav > ul > li > a {padding-left: 0px;
+#topnav > ul > li > a {padding-left: 0px;
   }
   /* Sub menu */
-.topnav li ul {	position: absolute;
+#topnav li ul {	position: absolute;
 				display: none;
 				width: inherit;  }
-.topnav li:hover ul {display: block;
+#topnav li:hover ul {display: block;
   }
-.topnav li ul li {display: block;
+#topnav li ul li {display: block;
   }
 .text {
   font-size:30px;
