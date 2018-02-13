@@ -75,7 +75,7 @@
 				</p>
 			</p>
 			<p>
-				<small>Reviewed Feb 2017</small>
+				<small>Reviewed Feb 2018</small>
 			</p>
 		</aside>
 	</div>
