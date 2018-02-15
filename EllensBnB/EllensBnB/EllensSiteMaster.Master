@@ -10,7 +10,11 @@
 	<link rel ="stylesheet" type="text/css" href="~/Content/Ellen_Styles.css" />
     <link rel="icon" href="~/Content/caImages/tn/Ellen.jpg" type="image/x-icon" />
     <link rel="shortcut icon" href="~/Content/caImages/tn/Ellen.jpg" type="image/x-icon" />
-	<script type="text/javascript" src="<%# Page.ResolveUrl("~/Scripts/Ellen_JSScript.js") %>"></script>
+	<!--
+	
+	-->
+	<script type="text/javascript" src="/Scripts/Ellen_JSScript.js"></script>
+	
 	<noscript>Your browser does not support JavaScript!</noscript>
 </head>
 <body>
@@ -39,7 +43,10 @@
 				</p>		
 			</footer>
 		</div> <!-- end of wrapper -->
-		<script type="text/javascript" src="<%# Page.ResolveUrl("~/Scripts/Ellen_JSScript1.js") %>"></script>
-    </form>
+		<!--
+		
+		-->
+		<script type="text/javascript" src="/Scripts/Ellen_JSScript1.js"></script>
+	</form>
 </body>
 </html>

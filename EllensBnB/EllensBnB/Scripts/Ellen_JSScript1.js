@@ -35,6 +35,18 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
+//for (i = 0; i < acc.length; i++) {
+//	acc[i].onclick = function () {
+//		this.classList.toggle("active");
+//		var panel = this.nextElementSibling;
+//		if (panel.style.maxHeight) {
+//			panel.style.maxHeight === panel.scrollHeight + "px";
+//		} else {
+//			panel.style.maxHeight === null;
+//		}
+//	}
+//}
+/*
  function sendForm() {
     var a = document.forms["myForm"]["firstname"].value;
 	var b = document.forms["myForm"]["lastname"].value;
@@ -51,7 +63,7 @@ for (i = 0; i < acc.length; i++) {
 		return true;
  }
  }
-
+*/
   
 
 			

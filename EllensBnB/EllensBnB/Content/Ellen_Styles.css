@@ -114,8 +114,10 @@ main { display: block; /* for Internet Explorer version 10 and below */
     cursor: default;
     overflow: hidden;
 }
-/#topnav li li {font-size: 90%; text-align:left;
-}										
+/*#topnav li li {font-size: 90%; text-align:left;
+}
+	Discuss with Karen - does this need to be removed
+*/										
 	  
 /*skip to maincontent styles*/	  
 #skiptocontent a {
@@ -263,7 +265,7 @@ button.container {display:inline-block;
     transition: 0.4s;
 }
 
-button.container.active, button.container:hover {
+button.container:active, button.container:hover {
     background-color: #4d88ff;
 }
 
@@ -275,7 +277,7 @@ button.container:after {
     margin-left: 5px;
 }
 
-button.container.active:after {
+button.container.active::after {
     content: "\2212";
 }
 
